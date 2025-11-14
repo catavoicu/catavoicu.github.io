@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalin V. Resume</title>
+
+  <!--
+    - favicon
+  -->
+  <!-- use your profile image as the page icon / preview -->
+  <link rel="shortcut icon" href="./assets/images/me.jpg" type="image/jpeg">
+  <link rel="icon" href="./assets/images/me.jpg" type="image/jpeg">
+
+  <!-- Open Graph / social preview image -->
+  <meta property="og:image" content="./assets/images/me.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="./assets/images/me.jpg" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--
+    - Font Awesome icons link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/me.jpg" alt="Catalin Voicu" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Catalin Voicu">Catalin Voicu</h1>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:catalin@example.com" class="contact-link">catavoicu01@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/catavoicu/" class="contact-link" target="_blank">catavoicu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-04-08">April 8, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bucharest, Romania</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+         <p>
+  As a 22-year-old engineering student based in Bucharest, Romania, I am passionate about bridging the gap between hardware constraints and software solutions. 
+  Currently in my final year at the Faculty of Electronics, Telecommunications and Information Technology, I have developed a versatile skill set ranging from Python programming and Linux administration to PCB Design.
+      </p>
+
+      <p>
+  Building on my recent experience as an Automation & Virtualization Intern, where I streamlined workflows using AI and scripting, I am actively seeking opportunities to contribute to impactful projects in software development or network engineering.
+      </p>
+
+      <p>
+  You can contact me via email or connect with me on other social media platforms found in the sidebar. I look forward to discussing how my engineering mindset can add value to your team.
+      </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+       <section class="service">
+
+  <h3 class="h3 service-title">What i'm doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <i class="fas fa-cogs"></i>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Automation & Process Engineering</h4>
+        <p class="service-item-text">
+          Experience in building automation workflows using n8n, Python scripts, and integrating Google Services to streamline repetitive tasks.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <i class="fas fa-globe"></i>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Development</h4>
+        <p class="service-item-text">
+          Developing web applications using Python (Flask), HTML/CSS, and JavaScript. Skilled in data visualization and backend logic.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <i class="fab fa-linux"></i>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Linux & Virtualization</h4>
+        <p class="service-item-text">
+          Configuring virtualization servers (XCP-ng, Xen Orchestra) and managing Linux environments to boost performance and stability.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <i class="fas fa-microchip"></i>
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Electronics & PCB</h4>
+        <p class="service-item-text">
+          Designing and testing circuits and PCBs using OrCad and KiCad. Experience with voltage regulators and embedded systems (ESP32).
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Automation & Virtualization Intern</h4>
+
+              <span>Jun. 2025 — Sep. 2025</span>
+
+              <p class="timeline-text">
+                <strong>Practical Internship - Bucharest, Romania</strong><br><br>
+                • Developed and scaled automation workflows (n8n), using webhooks to capture and process data from client forms and integrating services like Google Workspace and Slack for tasks like scheduling and email classification.<br><br>
+                • Administered a virtualization environment (XCP-ng, Xen Orchestra, ZFS), managing the full lifecycle of VMs including deployment, resource monitoring, and troubleshooting to ensure high availability.<br><br>
+                • Built a client-facing AI virtual assistant to guide users through business financing options, improving engagement and response efficiency.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Politehnica University of Bucharest - ETTI</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                I study at the Faculty of Electronics, Telecommunications and Information Technology within the Politehnica University of Bucharest. I study the main profile of this faculty where I learn embedded circuit programming, PCB design and many other things in the field of electronics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ion C. Bratianu National College</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                I studied sciences of nature at Ion C. Bratianu National College for 4 years, after which I took the Bachelor's degree exam.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CCNA, Networking</h5>
+                <data value="25">25%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 25%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">PCB</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Linux</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>PCB</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>PCB</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="https://github.com/catavoicu/Analiza-temperaturii-faciale-si-orale" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <div class="project-placeholder" aria-hidden="true">
+                    <div class="project-tech-icons">
+                      <i class="fab fa-python" title="Python"></i>
+                      <span class="project-plus">+</span>
+                      <i class="fas fa-thermometer-half" title="Thermal analysis"></i>
+                    </div>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Facial & Oral Temperature Analysis</h3>
+
+                <p class="project-category">Python, OpenCV</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="https://github.com/catavoicu/Higher-Lower-Game-Countries" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <div class="project-placeholder" aria-hidden="true">
+                    <div class="project-tech-icons">
+                      <i class="fab fa-python" title="Python"></i>
+                      <span class="project-plus">+</span>
+                      <i class="fas fa-globe" title="Geography data"></i>
+                    </div>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Higher-Lower Game Countries</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="https://github.com/catavoicu/Tic-Tac-Toe" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <div class="project-placeholder" aria-hidden="true">
+                    <div class="project-tech-icons">
+                      <i class="fab fa-python" title="Python"></i>
+                      <span class="project-plus">+</span>
+                      <i class="fas fa-gamepad" title="Game"></i>
+                    </div>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Tic Tac Toe Game</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pcb">
+              <a href="https://github.com/catavoicu/Stabilizator-de-tensiune-cu-Element-de-Reglaj-Serie-ERS-" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <div class="project-placeholder" aria-hidden="true">
+                    <div class="project-tech-icons">
+                      <i class="fas fa-microchip" title="Electronics"></i>
+                    </div>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Voltage Stabilizer PCB</h3>
+
+                <p class="project-category">OrCad, PCB Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pcb">
+              <a href="https://github.com/catavoicu/Human-skin-lie-detector" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <div class="project-placeholder" aria-hidden="true">
+                    <div class="project-tech-icons">
+                      <i class="fas fa-microchip" title="Electronics"></i>
+                    </div>
+                  </div>
+                </figure>
+
+                <h3 class="project-title">Human Skin Lie Detector</h3>
+
+                <p class="project-category">OrCad, PCB Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
